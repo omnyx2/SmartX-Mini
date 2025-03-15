@@ -225,6 +225,9 @@ Download Site : <https://releases.ubuntu.com/22.04/>
 
    `vport_vFunction`을 TAP 인터페이스로 설정하고 VM에 연결합니다.
 
+> [!CAUTION]
+> Tap interface: Add explanation of this part 
+
 > [!CAUTION]  
 > **!!!들여쓰기는 Tab 한번입니다!!!**  
 > `<your nuc ip>`에 현재 nuc의 ip와 `<gateway ip>`에 gateway ip를 입력해주시기 바랍니다. (이때 괄호는 제외하고 입력해야 합니다.)
