@@ -203,7 +203,7 @@ Download Site : <https://releases.ubuntu.com/22.04/>
    - DNS configuration
 
    ```bash
-   sudo vi /etc/systemd/resolved.conf
+   sudo vim /etc/systemd/resolved.conf
    ```
 
    파일의 내용 중, DNS 왼편에 있는 주석표시 (#) 를 제거해주고 DNS 주소를 명시합니다.  
@@ -220,7 +220,7 @@ Download Site : <https://releases.ubuntu.com/22.04/>
    /etc/network/interfaces 파일을 엽니다.
 
    ```bash
-   sudo vi /etc/network/interfaces
+   sudo vim /etc/network/interfaces
    ```
 
    `vport_vFunction`을 TAP 인터페이스로 설정하고 VM에 연결합니다.
@@ -426,7 +426,7 @@ sudo systemctl restart networking
 아래의 명령어를 입력하여 /etc/sysctl.conf 파일을 엽니다.
 
 ```bash
-sudo vi /etc/sysctl.conf
+sudo vim /etc/sysctl.conf
 ```
 
 net.ipv4.ip_forward=1 이라고 쓰인 부분을 찾아 ( '#' ) 주석을 제거합니다.
